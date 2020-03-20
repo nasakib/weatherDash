@@ -1,27 +1,44 @@
 body {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-#header {
-    background-color: rgb(22, 22, 22);
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
+#header {
+  background-color: rgb(22, 22, 22);
+}
 
 #leftside-box {
-    float: left;
+  float: left;
+}
+
+.form-inline {
+  padding-right: 0%;
 }
 
 #cities {
-    float: left;
-    min-height: max-content;
+  float: left;
+  min-height: max-content;
 }
 
 .jumbotron {
-    float: right;
-    min-height: 350px;
+  float: right;
+  min-height: 350px;
 }
 
-.card {
-    
+.header img {
+    float: right;
+    /* width: 50px;
+    height: 50px; */
+    background: lightgray;
+}
+
+.header h1 {
+    /* float: inline-start; */
+  /*  top: 18px;
+    right: 10px; */
+}
+
+.card-deck {
+    float: inline-start;
+    padding: 0%;
 }
